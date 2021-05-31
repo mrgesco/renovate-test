@@ -11,12 +11,7 @@
       }
     ],
     "require": {
-      "php": ">=7.1",
-      "wpackagist-plugin/wordfence":"^7.1",
       "wpackagist-plugin/wp-fastest-cache":"^0.8"
-    },
-    "require-dev": {
-      "wpackagist-plugin/wp-mailhog-smtp":"^1.0"
     },
     "config": {
       "optimize-autoloader": true,
