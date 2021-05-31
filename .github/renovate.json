@@ -14,6 +14,7 @@
             "at any time"
         ]
     },
+
     "rangeStrategy": "bump",
     "groupName": "all",
     "timezone": "Europe/Zurich",
