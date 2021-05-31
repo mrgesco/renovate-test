@@ -1,0 +1,32 @@
+{
+    "name": "test/renovate-test",
+    "type": "project",
+    "license": "MIT",
+    "description": "Test Renovate",
+    "repositories": [
+      {
+        "type": "composer",
+        "url": "https://wpackagist.org",
+        "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+      }
+    ],
+    "require": {
+      "php": ">=7.1",
+      "wpackagist-plugin/wordfence":"^7.1",
+      "wpackagist-plugin/wp-fastest-cache":"^0.8"
+    },
+    "require-dev": {
+      "wpackagist-plugin/wp-mailhog-smtp":"^1.0"
+    },
+    "config": {
+      "optimize-autoloader": true,
+      "preferred-install": "dist"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+      "installer-paths": {
+        "web/plugins/{$name}/": ["type:wordpress-plugin"]
+      }
+    }
+  }
