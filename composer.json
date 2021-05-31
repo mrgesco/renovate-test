@@ -12,7 +12,7 @@
     ],
     "require": {
       "php": ">=7.1",
-      "wpackagist-plugin/wordfence":"^7.1",
+      "wpackagist-plugin/wordfence":"^7.5",
       "wpackagist-plugin/wp-fastest-cache":"^0.8"
     },
     "require-dev": {
